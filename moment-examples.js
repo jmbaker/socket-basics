@@ -3,7 +3,7 @@ var moment = require('moment');
 var now = moment();
 
 console.log(now.format());
-console.log(now.format('X'));
+console.log(moment().format('X'));
 console.log(now.valueOf());
 
 var timestamp = 1467000432634;
